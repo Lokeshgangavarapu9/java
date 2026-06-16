@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "floata",
+            "request": "launch",
+            "mainClass": "floata",
+            "projectName": "JAVA PRS_991cd1f1"
+        },
+        {
+            "type": "java",
+            "name": "inta",
+            "request": "launch",
+            "mainClass": "inta",
+            "projectName": "JAVA PRS_991cd1f1"
+        },
+        {
+            "type": "java",
+            "name": "sum",
+            "request": "launch",
+            "mainClass": "sum",
+            "projectName": "JAVA PRS_991cd1f1"
+        },
+        {
+            "type": "java",
+            "name": "hellow",
+            "request": "launch",
+            "mainClass": "hellow",
+            "projectName": "JAVA PRS_991cd1f1"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "JAVA PRS_991cd1f1"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
