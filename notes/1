@@ -1,0 +1,14 @@
+Based on the video **[#4 How Java Works](https://www.youtube.com/watch?v=NHrsLjhjmi4)**, here are the key definitions and keywords explained by the instructor:
+
+### 🔑 Key Concepts & Definitions
+
+* **JVM (Java Virtual Machine) [00:20](http://www.youtube.com/watch?v=NHrsLjhjmi4&t=20):** The engine that executes your Java code. While Java applications are platform-independent, the JVM itself is platform-dependent, meaning you need a specific JVM built for your operating system (Windows, Mac, Linux, etc.) to run the code.
+* **Platform Independent [01:51](http://www.youtube.com/watch?v=NHrsLjhjmi4&t=111):** A core feature of Java which simply means you can run your application on any machine or operating system, as long as that machine has a JVM installed.
+* **Byte Code [02:49](http://www.youtube.com/watch?v=NHrsLjhjmi4&t=169):** An intermediate, unreadable format that your Java code is converted into. The JVM cannot understand standard English-like Java code, so it requires the code to be converted into Byte Code first. These files have a `.class` extension.
+* **Compiler (`javac`) [03:28](http://www.youtube.com/watch?v=NHrsLjhjmi4&t=208):** The middleman tool that converts the human-readable Java code (`.java` file) that you wrote into the Byte Code (`.class` file) that the JVM can execute.
+* **Main Method [04:34](http://www.youtube.com/watch?v=NHrsLjhjmi4&t=274):** The specific starting point of your application. Even if you have thousands of files, the JVM needs to know where to begin executing. It specifically looks for a method with the exact signature: `public static void main(String a[])`.
+* **JRE (Java Runtime Environment) [10:29](http://www.youtube.com/watch?v=NHrsLjhjmi4&t=629):** The broader environment required to actually run a Java application. It contains the JVM as well as extra pre-written libraries needed for your code to function.
+* **JDK (Java Development Kit) [11:17](http://www.youtube.com/watch?v=NHrsLjhjmi4&t=677):** The complete toolkit used by developers to write and compile code. The JDK is the outer layer that contains the JRE (which in turn contains the JVM), along with development tools like the `javac` compiler.
+* **WORA (Write Once, Run Anywhere) [11:47](http://www.youtube.com/watch?v=NHrsLjhjmi4&t=707):** A famous Java acronym that highlights its portability. You can write and compile your code on your own machine, and then run that exact same compiled code on any other machine in the world, provided it has a JRE and JVM installed.
+
+Are there any specific concepts from this list you'd like to dive deeper into?
