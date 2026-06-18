@@ -21,7 +21,8 @@ public class arr {
     for (int i=0;i<n;i++){
           sum += a[i];
     }
-    System.out.println("sum of the values in the array is"+sum);
-    s.close();
+     System.out.println("sum of the values in the array is"+sum);
+     s.close();
+
 }
 }
