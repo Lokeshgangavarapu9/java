@@ -1,3 +1,4 @@
+package normal;
 
 class calculator{
     int a;

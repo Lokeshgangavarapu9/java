@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "whilea",
+            "request": "launch",
+            "mainClass": "YT.loops.whilea",
+            "projectName": "JAVA PRS_991cd1f1"
+        },
+        {
+            "type": "java",
             "name": "floata",
             "request": "launch",
             "mainClass": "floata",

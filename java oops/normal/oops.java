@@ -1,4 +1,7 @@
+package normal;
 import java.util.Scanner;
+
+
 
 class me{
     String name;
