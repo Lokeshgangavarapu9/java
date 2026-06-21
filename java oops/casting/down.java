@@ -1,4 +1,4 @@
-//package casting;
+package casting;
 
 class A{
 
